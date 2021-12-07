@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+      <div class="jumbotron">
+        <div class="display-4 text-center ">
+          <h1>Process Details</h1>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+     
+      <div class="col-md-12">
+        <h1>List Of Process</h1>
+        <table class="table table-stripped">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Gender</th>
+              <th>Address</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of list ">
+              <td>{{item.id}}</td> 
+              <td>{{item.firstName}}</td>
+              <td>{{item.lastName}}</td>
+              <td>{{item.address}}</td>
+              <td>{{item.city}}</td>
+              <td><i class="far fa-trash-alt text-danger"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+  </div>

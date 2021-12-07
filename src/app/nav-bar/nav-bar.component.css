@@ -1,0 +1,10 @@
+.title{
+    font-family: "Sofia", sans-serif;
+    color: #c54e4a;
+    font-size: 2em;
+}
+.btn-success1{
+    background-color: rgb(152, 221, 113);
+    color: #fff;
+    font-weight: 500;
+}
